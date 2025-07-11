@@ -33,8 +33,3 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
-
-return {
-    { import = "plugins/ui.lua" }
-}
-
